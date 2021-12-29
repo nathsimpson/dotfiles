@@ -1,0 +1,47 @@
+{
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.quickSuggestionsDelay": 10,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "liveshare.featureSet": "insiders",
+  "typescript.format.enable": false,
+  "typescript.suggest.autoImports": false,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.enablePreview": true,
+  "typescript.suggestionActions.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "git.suggestSmartCommit": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.showExitAlert": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.tabs.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false
+}
