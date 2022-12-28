@@ -1,47 +1,86 @@
 {
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.detectIndentation": false,
-  "editor.renderWhitespace": "all",
+  "editor.accessibilitySupport": "off",
   "editor.tabSize": 2,
-  "editor.quickSuggestionsDelay": 10,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "javascript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "liveshare.featureSet": "insiders",
   "typescript.format.enable": false,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.enablePersistentSessions": false,
   "typescript.suggest.autoImports": false,
   "workbench.editor.enablePreviewFromQuickOpen": true,
+  "git.autofetch": true,
+  "editor.detectIndentation": false,
+  "editor.stickyScroll.enabled": true,
+  "javascript.suggestionActions.enabled": false,
   "workbench.editor.enablePreview": true,
   "typescript.suggestionActions.enabled": false,
-  "javascript.suggestionActions.enabled": false,
   "workbench.colorTheme": "GitHub Dark",
-  "files.autoSave": "off",
+  "window.commandCenter": true,
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.formatOnSave": true,
+  "git.postCommitCommand": "push",
+  "git.confirmSync": false,
+  "files.insertFinalNewline": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.autoSave": "off",
+  "editor.quickSuggestionsDelay": 10,
   "prettier.requireConfig": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.renderWhitespace": "all",
   "git.suggestSmartCommit": false,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "githubPullRequests.pullBranch": "never",
+  "search.useIgnoreFiles": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "search.exclude": {
+    "node_modules": true,
+    "**/*/.next": true,
+    "__generated__": true,
+    "coverage": true,
+    "dist": true,
+    ".cache": true,
+    "out": true,
+    "package-lock.json": true,
+    "storage": true,
+    "yarn.lock": true,
+    ".keystone": true,
+    "public": true,
+    "build": true
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "git.mergeEditor": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
   },
+  "terminal.integrated.tabs.enabled": false,
+  "cSpell.userWords": ["Classname", "colour", "colours", "WCAG"],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.showExitAlert": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.tabs.enabled": false,
-  "redhat.telemetry.enabled": false,
-  "git.confirmSync": false
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "[mdx]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  }
 }
