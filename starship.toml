@@ -1,0 +1,43 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# Move the directory to the second line
+format = '$all$directory$character'
+
+[nodejs]
+disabled = true
+
+# Dracula theme
+[aws]
+style = "bold #ffb86c"
+
+[character]
+error_symbol = "[λ](bold #ff5555)"
+success_symbol = "[➜](bold #50FA7B)" # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+[cmd_duration]
+style = "bold #f1fa8c"
+
+[directory]
+style = "bold #BD93F9"
+
+[git_branch]
+style = "bold #ff79c6"
+format = 'on [$branch(:$remote_branch)]($style) '
+
+[git_status]
+style = "bold #ff5555"
+
+[hostname]
+style = "bold #bd93f9"
+
+[username]
+format = "[$user]($style) on "
+style_user = "bold #8be9fd"
