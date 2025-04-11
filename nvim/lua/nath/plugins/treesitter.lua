@@ -8,6 +8,6 @@ return {
       ensure_installed = { "lua", "javascript" },
       highlight = { enable = true },
       indent = { enable = true }
-      })
+    })
   end
 }
