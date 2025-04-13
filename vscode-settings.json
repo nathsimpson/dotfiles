@@ -1,27 +1,37 @@
 {
   "editor.acceptSuggestionOnEnter": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.detectIndentation": false,
+  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestionsDelay": 10,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
-  "editor.quickSuggestionsDelay": 10,
-  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "off",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
   "javascript.suggest.autoImports": false,
+  "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "liveshare.featureSet": "insiders",
+  "prettier.requireConfig": true,
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.tabs.enabled": false,
   "typescript.format.enable": false,
   "typescript.suggest.autoImports": false,
-  "workbench.editor.enablePreviewFromQuickOpen": true,
-  "workbench.editor.enablePreview": true,
   "typescript.suggestionActions.enabled": false,
-  "javascript.suggestionActions.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "GitHub Dark",
-  "files.autoSave": "off",
-  "editor.formatOnSave": true,
-  "prettier.requireConfig": true,
-  "git.suggestSmartCommit": false,
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -33,15 +43,5 @@
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.showExitAlert": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.tabs.enabled": false,
-  "redhat.telemetry.enabled": false,
-  "git.confirmSync": false
+  }
 }
