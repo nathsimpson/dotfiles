@@ -1,116 +1,113 @@
 {
-  "typescript.format.enable": false,
-  "terminal.integrated.showExitAlert": false,
-  "files.trimFinalNewlines": true,
-  "terminal.integrated.enablePersistentSessions": false,
-  "workbench.editor.enablePreviewFromQuickOpen": true,
-  "editor.accessibilitySupport": "off",
-  "javascript.suggest.autoImports": false,
-  "git.autofetch": true,
-  "editor.stickyScroll.enabled": true,
-  "liveshare.featureSet": "insiders",
-  "editor.tabSize": 2,
-  "javascript.suggestionActions.enabled": false,
-  "window.commandCenter": true,
-  "workbench.colorTheme": "Dracula",
-  "javascript.validate.enable": false,
-  "typescript.suggest.autoImports": false,
-  "editor.inlineSuggest.enabled": true,
+  "$schema": "vscode://schemas/settings/user",
   "diffEditor.ignoreTrimWhitespace": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "files.trimTrailingWhitespace": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "never",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "editor.formatOnSave": true,
-  "git.postCommitCommand": "none",
-  "typescript.suggestionActions.enabled": false,
-  "git.confirmSync": false,
-  "files.insertFinalNewline": true,
-  "typescript.tsdk": "node_modules\/typescript\/lib",
-  "files.autoSave": "off",
-  "editor.quickSuggestionsDelay": 10,
-  "prettier.requireConfig": true,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.renderWhitespace": "all",
-  "git.suggestSmartCommit": false,
-  "githubPullRequests.pullBranch": "never",
-  "search.useIgnoreFiles": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editor.enablePreview": true,
+  "editor.detectIndentation": false,
   "editor.fontFamily": "SauceCodePro, SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestionsDelay": 10,
+  "editor.renderWhitespace": "all",
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.blame.editorDecoration.enabled": true,
+  "git.confirmSync": false,
+  "git.mergeEditor": false,
+  "git.postCommitCommand": "none",
+  "git.suggestSmartCommit": false,
+  "github.copilot.enable": {
+    "*": true,
+    "enableAutoCompletions": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "githubPullRequests.fileListLayout": "tree",
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.mode.active": "zen",
+  "javascript.suggest.autoImports": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "liveshare.featureSet": "insiders",
+  "prettier.requireConfig": true,
   "search.exclude": {
-    "node_modules": true,
-    "**\/*\/.next": true,
     "__generated__": true,
+    ".cache": true,
+    ".keystone": true,
+    "**/*/.next": true,
+    "**/*/*.tsbuildinfo": true,
+    "build": true,
     "coverage": true,
     "dist": true,
-    ".cache": true,
+    "node_modules": true,
     "out": true,
     "package-lock.json": true,
-    "storage": true,
-    "yarn.lock": true,
-    ".keystone": true,
     "public": true,
-    "build": true
+    "storage": true,
+    "yarn.lock": true
   },
-  "git.mergeEditor": false,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "cSpell.userWords": [
-    "colour",
-    "colours",
-    "WCAG"
-  ],
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[sql]": {
-    "editor.formatOnSave": false,
-  },
-  "[mdx]": {
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 100
-  },
-  "editor.minimap.enabled": false,
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  "search.useIgnoreFiles": false,
+  "editor.formatOnSave": true,
+  "git.confirmNoVerifyCommit": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.showExitAlert": false,
   "terminal.integrated.tabs.enabled": false,
-  "gitlens.mode.active": "zen",
-  "githubPullRequests.fileListLayout": "tree",
+  "typescript.format.enable": false,
+  "typescript.suggest.autoImports": false,
+  "typescript.suggestionActions.enabled": false,
+  "typescript.tsdk": "node_modules\/typescript\/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.visualModeKeyBindings": [],
+  "window.commandCenter": true,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.showLabels": false,
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "vim.visualModeKeyBindings": [],
-  "window.zoomLevel": 1,
-  "editor.lineNumbers": "relative",
-  "prisma.showPrismaDataPlatformNotification": false,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "editor.autoClosingBrackets": "never",
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[mdx]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
   }
 }
