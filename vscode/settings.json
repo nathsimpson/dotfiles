@@ -9,6 +9,8 @@
   },
   "editor.detectIndentation": false,
   "editor.fontFamily": "SauceCodePro, SF Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.edits.showCollapsed": true,
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
@@ -23,6 +25,7 @@
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.blame.editorDecoration.enabled": true,
+  "git.confirmNoVerifyCommit": false,
   "git.confirmSync": false,
   "git.mergeEditor": false,
   "git.postCommitCommand": "none",
@@ -34,9 +37,12 @@
     "markdown": true,
     "scminput": false
   },
+  "github.copilot.nextEditSuggestions.enabled": true,
   "githubPullRequests.fileListLayout": "tree",
   "githubPullRequests.pullBranch": "never",
   "gitlens.mode.active": "zen",
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
   "javascript.suggest.autoImports": false,
   "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -60,9 +66,6 @@
     "yarn.lock": true
   },
   "search.useIgnoreFiles": false,
-  "editor.formatOnSave": true,
-  "git.confirmNoVerifyCommit": false,
-  "github.copilot.nextEditSuggestions.enabled": true,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.tabs.enabled": false,
@@ -71,28 +74,25 @@
   "typescript.suggestionActions.enabled": false,
   "typescript.tsdk": "node_modules\/typescript\/lib",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.autoClosingTags": false,
   "vim.visualModeKeyBindings": [],
-  "window.commandCenter": true,
   "window.confirmBeforeClose": "keyboardOnly",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Dracula Theme",
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.showLabels": false,
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.svg": "default"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.panel.showLabels": false,
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -109,5 +109,5 @@
   },
   "[sql]": {
     "editor.formatOnSave": false
-  }
+  },
 }
