@@ -4,6 +4,36 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$python\
+$character"""
+
+right_format = """$time"""
+
+palette = "dracula"
+
+# Define Dracula color palette
+[palettes.dracula]
+background = "#282a36"
+current_line = "#44475a"
+foreground = "#f8f8f2"
+comment = "#6272a4"
+cyan = "#8be9fd"
+green = "#50fa7b"
+orange = "#ffb86c"
+pink = "#ff79c6"
+purple = "#bd93f9"
+red = "#ff5555"
+yellow = "#f1fa8c"
+
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
@@ -14,30 +44,37 @@ format = '$all$directory$character'
 [nodejs]
 disabled = true
 
-# Dracula theme
-[aws]
-style = "bold #ffb86c"
 
 [character]
-error_symbol = "[λ](bold #ff5555)"
-success_symbol = "[➜](bold #50FA7B)" # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+error_symbol = "[>](bold red)"
+success_symbol = "[>](bold)"
 
 [cmd_duration]
-style = "bold #f1fa8c"
+style = "foreground"
 
 [directory]
-style = "bold #BD93F9"
+style = "bold purple"
 
 [git_branch]
-style = "bold #ff79c6"
-format = 'on [$branch(:$remote_branch)]($style) '
+style = "comment"
+format = '[$branch(:$remote_branch)]($style) '
 
 [git_status]
-style = "bold #ff5555"
+format = '([$all_status$ahead_behind]($style) )'
+style = "cyan"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "pink"
 
 [hostname]
-style = "bold #bd93f9"
+style = "bold purple"
+
+[time]
+disabled = false
+format = "[$time]($style) "
+style = "comment"
 
 [username]
 format = "[$user]($style) on "
-style_user = "bold #8be9fd"
+style_user = "bold cyan"
