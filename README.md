@@ -2,6 +2,13 @@
 
 A collection of configuration files.
 
+## Running Stow
+
+```sh
+cd ~/Documents/projects/dotfiles
+stow -v -S starship -t ~ --ignore=.DS_Store
+```
+
 ## Steps for setting up a new Mac
 
 1. Complete initial set-up with Apple ID
