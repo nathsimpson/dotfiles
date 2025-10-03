@@ -1,11 +1,11 @@
 # dotfiles
 
-A collection of configuration files.
+A collection of configuration files. Clone this into the home ("~") directory, and use [GNU Stow](https://www.gnu.org/software/stow/) to manage symlinks to the files in this repo.
 
 ## Running Stow
 
 ```sh
-cd ~/Documents/projects/dotfiles
+cd ~/dotfiles
 stow -v -S starship -t ~ --ignore=.DS_Store
 ```
 
@@ -19,7 +19,7 @@ stow -v -S starship -t ~ --ignore=.DS_Store
     4. [Zoom](https://zoom.us/download)
     5. [Ghostty](https://ghostty.org)
 3. Install [Homebrew](https://brew.sh) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-4. `brew install neovim starship`
+4. `brew install neovim starship stow`
 5. Install VSCode.
     1. Copy settings JSON from vscode/settings.json in this repo.
     2. [Install `code` shell script](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) (search ‘shell’ in command palette).
@@ -28,8 +28,8 @@ stow -v -S starship -t ~ --ignore=.DS_Store
     2. [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating), then `nvm install —lts`
     3. yarn
 7. Install git…
-    1. Attempt to run git, which should trigger Xcode to install developer tools
-    2. git config --global user.email "you@example.com"
-    3. git config --global user.name "Your Name"
+    1. Attempt to run `git --help`, which should trigger Xcode to install developer tools
+    2. `git config --global user.email "you@example.com"`
+    3. `git config --global user.name "Your Name"`
 8. In terminal… `defaults write com.apple.finder AppleShowAllFiles true` then `killall Finder`
 9. Generate a new .ssh key, and add to [GitHub settings](https://github.com/settings/keys). [Learn more](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
