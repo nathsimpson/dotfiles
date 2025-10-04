@@ -1,1 +1,1 @@
-require("nath")
+require("nath.lazy")

@@ -1,15 +1,19 @@
 return {
-  'nvim-telescope/telescope.nvim',
-  dependencies = { 'nvim-lua/plenary.nvim' },
-  config = function()
-    local builtin = require('telescope.builtin')
+  "nvim-telescope/telescope.nvim",
+  keys = {
+    { "<C-p>", "<cmd>Telescope git_files<cr>", desc = "Find Git Files" },
+    { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
+    { "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live grep" },
+    { "<leader>fb", "<cmd>Telescope buffers<cr>", desc = "Find buffers" },
 
-    vim.keymap.set('n', '<C-p>', builtin.find_files, {})
-    vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-    vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
-    vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
-    vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+    -- add a keymap to browse plugin files
+    -- {
+    --   "<leader>fp",
+    --   function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
+    --   desc = "Find Plugin File",
+    -- },
 
-    require('telescope').setup()
-  end
+    -- disable the keymap to grep files
+    -- {"<leader>/", false},
+  },
 }
