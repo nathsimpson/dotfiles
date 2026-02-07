@@ -19,7 +19,7 @@ stow -v -S starship -t ~ --ignore=.DS_Store
     4. [Zoom](https://zoom.us/download)
     5. [Ghostty](https://ghostty.org)
 3. Install [Homebrew](https://brew.sh) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-4. `brew install neovim starship stow`
+4. `brew install neovim lazygit lazydocker starship stow`
 5. Install VSCode.
     1. Copy settings JSON from vscode/settings.json in this repo.
     2. [Install `code` shell script](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) (search ‘shell’ in command palette).
