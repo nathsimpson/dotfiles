@@ -66,6 +66,7 @@
     "yarn.lock": true
   },
   "search.useIgnoreFiles": false,
+  "terminal.integrated.defaultLocation": "editor",
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.tabs.enabled": false,
@@ -92,7 +93,7 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
